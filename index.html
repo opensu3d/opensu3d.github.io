@@ -163,10 +163,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/gif/intro.gif"
-                type="video/mp4">
-      </video>
+      <img id="teaser" src="./static/gif/intro.gif" alt="Intro GIF" height="100%">
       <h2 class="subtitle has-text-centered">
         <span class="dnerf">OpenSU3D</span> constructs open-set 3D scene representation that that facilitate varity of open world scene understanding tasks. 
       </h2>
@@ -241,32 +238,28 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            This study presents a novel, scalable approach for
+            constructing open set, instance-level 3D scene representations,
+            advancing open world understanding of 3D environments.
+            Existing methods require pre-constructed 3D scenes and face
+            scalability issues due to per-point feature vector learning, limit-
+            ing their efficacy with complex queries. Our method overcomes
+            these limitations by incrementally building instance-level 3D
+            scene representations using 2D foundation models, efficiently
+            aggregating instance-level details such as masks, feature vectors,
+            names, and captions. We introduce fusion schemes for feature
+            vectors to enhance contextual integration and performance
+            on complex queries. Additionally, we explore large language
+            models for robust automatic annotation and spatial reasoning
+            tasks. Evaluated on scenes from ScanNet [1] and Replica [2]
+            datasets, our method demonstrates zero-shot generalization
+            capabilities, exceeds current state-of-the-art methods in open
+            world 3D scene understanding.
           </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
-          </p>
+
         </div>
       </div>
     </div>
