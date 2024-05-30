@@ -29,6 +29,7 @@
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./static/css/carousel_single.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
@@ -39,6 +40,7 @@
   <script src="./static/js/bulma-carousel.min.js"></script>
   <script src="./static/js/bulma-slider.min.js"></script>
   <script src="./static/js/index.js"></script>
+  <script src="./static/js/carousel_single.js"></script>
 </head>
 <body>
 
@@ -596,13 +598,24 @@
   </div>
   <div class="container is-max-desktop">
     <div class="hero-body">
+      <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="/static/images/segment/1.png" alt="Image 1">
+            <img src="/static/images/segment/2.png" alt="Image 2">
+            <img src="image3.png" alt="Image 3">
+        </div>
+        <div class="carousel-buttons">
+            <button id="prevBtn">❮</button>
+            <button id="nextBtn">❯</button>
+        </div>
+    </div>
   <!-- Images -->
-  <div class="item item-scannet">
+  <!--div class="item item-scannet">
     <img id="teaser" src="/static/images/segment/1.png" alt="room0 GIF" height="60%">
   </div>
   <div class="item item-office">
     <img id="teaser" src="/static/images/segment/2.png" alt="office GIF" height="60%">
-  </div>
+  </div-->
   <!--div class="item item-room">
     <img id="teaser" src="/static/images/segment/3.png" alt="scene0000_00 GIF" height="60%">
   </div-->
