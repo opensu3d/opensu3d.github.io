@@ -695,7 +695,7 @@
 <!-- Reason -->
 <div class="hero-body" style="padding-top: 3;">
   <div class="container is-max-desktop">
-    <div id="results-carousel-ss" class="carousel results-carousel">
+    <div id="results-carousel-ss" class="carousel results-carousel-ss">
       <!-- Updated image items with PNG files from om directory -->
       <div class="item item-omf_1">
         <img id="teaser" src="static/images/reason/1.png" alt="omf_1 PNG" height="40%">
@@ -719,6 +719,53 @@
   </div>
 </div>
 
+
+<!--/ Script ss -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    bulmaCarousel.attach('#results-carousel-ss', {
+      initialSlide: 0,
+slidesToScroll: 1,
+slidesToShow: 1,
+
+navigation: true,
+navigationKeys: true,
+navigationSwipe: true,
+
+pagination: true,
+
+loop: true,
+infinite: true,
+
+effect: 'translate',
+duration: 300,
+timing: 'ease',
+
+autoplay: false,
+autoplaySpeed: 3000,
+pauseOnHover: true,
+breakpoints: [{
+  changePoint: 480,
+  slidesToShow: 1,
+  slidesToScroll: 1
+}, {
+  changePoint: 640,
+  slidesToShow: 2,
+  slidesToScroll: 2
+}, {
+  changePoint: 768,
+  slidesToShow: 2,
+  slidesToScroll: 2
+}],
+
+onReady: null,
+icons: {
+  'previous': '<svg viewBox="0 0 50 80" xml:space="preserve">\n      <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>\n    </svg>',
+  'next': '<svg viewBox="0 0 50 80" xml:space="preserve">\n      <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "/>\n    </svg>'
+}
+    });
+  });
+</script>
 
 </section>
 
@@ -913,52 +960,7 @@
   </div>
 </footer>
 
-<!--/ Script ss -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    bulmaCarousel.attach('#results-carousel-ss', {
-      initialSlide: 0,
-slidesToScroll: 1,
-slidesToShow: 1,
 
-navigation: true,
-navigationKeys: true,
-navigationSwipe: true,
-
-pagination: true,
-
-loop: true,
-infinite: true,
-
-effect: 'translate',
-duration: 300,
-timing: 'ease',
-
-autoplay: false,
-autoplaySpeed: 3000,
-pauseOnHover: true,
-breakpoints: [{
-  changePoint: 480,
-  slidesToShow: 1,
-  slidesToScroll: 1
-}, {
-  changePoint: 640,
-  slidesToShow: 2,
-  slidesToScroll: 2
-}, {
-  changePoint: 768,
-  slidesToShow: 2,
-  slidesToScroll: 2
-}],
-
-onReady: null,
-icons: {
-  'previous': '<svg viewBox="0 0 50 80" xml:space="preserve">\n      <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="45.63,75.8 0.375,38.087 45.63,0.375 "/>\n    </svg>',
-  'next': '<svg viewBox="0 0 50 80" xml:space="preserve">\n      <polyline fill="currentColor" stroke-width=".5em" stroke-linecap="round" stroke-linejoin="round" points="0.375,0.375 45.63,38.087 0.375,75.8 "/>\n    </svg>'
-}
-    });
-  });
-</script>
 
 </body>
 </html>
