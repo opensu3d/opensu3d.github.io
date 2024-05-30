@@ -565,8 +565,8 @@
   </div>
 <!-- Fusion -->
   <div class="hero-body" style="padding-top: 3;">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
+    <div class="container is-max-desktop">
+      <div id="results-carousel-fus" class="carousel results-carousel-fus">
         <!-- Updated image items with PNG files from om directory -->
         <div class="item item-om_1">
           <img id="teaser" src="static/images/fusion/1.png" alt="om_1 PNG" height="40%">
@@ -586,9 +586,10 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      bulmaCarousel.attach('#results-carousel', {
+      bulmaCarousel.attach('#results-carousel-fus', {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        infinite: true
       });
     });
   </script>
@@ -607,8 +608,8 @@
   </div>
 <!-- Segment -->
   <div class="hero-body" style="padding-top: 3;">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
+    <div class="container is-max-desktop">
+      <div id="results-carousel-seg" class="carousel results-carousel-seg">
         <!-- Updated image items with PNG files from om directory -->
         <div class="item item-om_1">
           <img id="teaser" src="static/images/segment/1.png" alt="om_1 PNG" height="40%">
@@ -625,13 +626,14 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      bulmaCarousel.attach('#results-carousel', {
+      bulmaCarousel.attach('#results-carousel-seg', {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        infinite: true
       });
     });
   </script>
-  </script>
+
 
 </section>
 
