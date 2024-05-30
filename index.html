@@ -597,7 +597,7 @@
     </div>
   </div>
   <div class="container is-max-desktop">
-    <div id="results-carousel" class="carousel_single results-carousel">
+    <div id="results-carousel-segment" class="carousel results-carousel-segment">
       <!-- Updated image items with PNG files from om directory -->
       <div class="item item-om_1">
         <img id="teaser" src="/static/images/segment/1.png" alt="om_1 PNG" height="40%">
@@ -619,6 +619,20 @@
   </div-->
 </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var carousels = bulmaCarousel.attach('#results-carousel-segment', {
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      loop: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: true
+    });
+  });
+</script>
+
 </section>
 
 <!-- Annotation -->
