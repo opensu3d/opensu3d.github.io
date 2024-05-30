@@ -2327,16 +2327,16 @@ var defaultOptions = {
   pauseOnHover: true,
   breakpoints: [{
     changePoint: 480,
-    slidesToShow: 1,  // Ensure only one slide is shown
-    slidesToScroll: 1 // Ensure only one slide is scrolled
+    slidesToShow: 1,
+    slidesToScroll: 1
   }, {
     changePoint: 640,
-    slidesToShow: 1,  // Ensure only one slide is shown
-    slidesToScroll: 1 // Ensure only one slide is scrolled
+    slidesToShow: 2,
+    slidesToScroll: 2
   }, {
     changePoint: 768,
-    slidesToShow: 1,  // Ensure only one slide is shown
-    slidesToScroll: 1 // Ensure only one slide is scrolled
+    slidesToShow: 3,
+    slidesToScroll: 3
   }],
 
   onReady: null,
