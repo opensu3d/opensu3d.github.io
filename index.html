@@ -607,32 +607,15 @@
       </div>
     </div>
   </div>
-  <!-- Images -->
-  <!--div class="item item-scannet">
-    <img id="teaser" src="/static/images/segment/1.png" alt="room0 GIF" height="60%">
-  </div>
-  <div class="item item-office">
-    <img id="teaser" src="/static/images/segment/2.png" alt="office GIF" height="60%">
-  </div-->
-  <!--div class="item item-room">
-    <img id="teaser" src="/static/images/segment/3.png" alt="scene0000_00 GIF" height="60%">
-  </div-->
-</div>
-</div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var carousels = bulmaCarousel.attach('#results-carousel-segment', {
-      slidesToScroll: 1,
-      slidesToShow: 1,
-      loop: true,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      pauseOnHover: true
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      bulmaCarousel.attach('#results-carousel-segment', {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
     });
-  });
-</script>
-
+  </script>
 </section>
 
 <!-- Annotation -->
