@@ -8,7 +8,7 @@
 <a href="https://rafayamhddn.github.io/">Author1</a><sup>1</sup>,&nbsp;&nbsp;&nbsp;<a href="https://people.inf.ethz.ch/pomarc/">Author</a><sup>1</sup>,&nbsp;&nbsp;&nbsp;<a href="https://rafayamhddn.github.io/">Author 3</a><sup>1</sup>
 
 
-<sup>1</sup>TU Munich&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>Huawei, Munich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><sup>*</sup>correspounding author
+<sup>1</sup>TU Munich&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>Huawei Munich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><!--sup>*</sup>correspounding author<sup>*</sup-->
 
 <a href="https://rafayamhddn.github.io/"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-badge"></a>
 
