@@ -1,5 +1,5 @@
-# OpenSU3D  
-## Open World 3D Scene Understanding using Foundation Models
+
+## OpenSU3D: Open World 3D Scene Understanding using Foundation Models
 
 
 <div align="center">
