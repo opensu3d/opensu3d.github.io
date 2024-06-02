@@ -29,9 +29,15 @@ body {
 }
 
 .custom-width {
-  width: 70%; /* Set the width to 60% of its original size */
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%; /* Default width for small screens */
+}
+
+@media (min-width: 768px) {
+  .custom-width {
+    width: 50%; /* Reduced width for larger screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .publication-title {
