@@ -23,19 +23,13 @@ body {
   padding-bottom: 3rem;
 }
 
-.teaser-image {
-  width: 100%; /* Set width to 60% of the parent container */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .teaser {
   font-family: 'Google Sans', sans-serif;
 }
 
 .custom-width {
-  width: 60%; /* Set the width to 60% of its original size */
+  width: 70%; /* Set the width to 60% of its original size */
   margin-left: auto;
   margin-right: auto;
 }
