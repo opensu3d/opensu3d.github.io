@@ -1,10 +1,11 @@
-# Nerfies
+# OpenSU3D 
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+## Open World 3D Scene Understanding using Foundation Models
 
-If you find Nerfies useful for your work please cite:
+![Alt text](static/images/approch/intro.png)
+
 ```
-@article{park2021nerfies
+@article{rafay2024opensu3d
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
   title     = {Nerfies: Deformable Neural Radiance Fields},
   journal   = {ICCV},
