@@ -24,7 +24,7 @@ body {
 }
 
 .teaser-image {
-  width: 600px; /* Adjust the width as needed */
+  width: 60%; /* Set width to 60% of the parent container */
   display: block;
   margin-left: auto;
   margin-right: auto;
