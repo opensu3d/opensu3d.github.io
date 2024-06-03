@@ -29,12 +29,14 @@ body {
 }
 
 .custom-width {
-  width: 100%; /* Default width for small screens */
+  width: 100%;
+  background-color: lightblue; /* Default background for small screens */
 }
 
 @media screen and (min-width: 768px) {
   .custom-width {
-    width: 70% !important;
+    width: 70%; 
+    background-color: lightgreen; /* Background for larger screens */
   }
 }
 
