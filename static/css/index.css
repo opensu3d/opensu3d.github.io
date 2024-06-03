@@ -35,7 +35,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .custom-width {
-    width: 70%; 
+    width: 600px; 
     background-color: lightgreen; /* Background for larger screens */
   }
 }
