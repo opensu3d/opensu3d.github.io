@@ -30,13 +30,11 @@ body {
 
 .custom-width {
   width: 100%;
-  background-color: lightblue; /* Default background for small screens */
 }
 
 @media screen and (min-width: 768px) {
   .custom-width {
     width: 600px; 
-    background-color: lightgreen; /* Background for larger screens */
   }
 }
 
