@@ -24,7 +24,7 @@
   author    = {Mohiuddin, Rafay and - },
   title     = {OpenSU3D: Open World 3D Scene Understanding using Foundation Models},
   journal   = {-},
-  year      = {2024},
+  year      = {-},
 }
 ```
 
