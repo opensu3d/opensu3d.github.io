@@ -4,8 +4,20 @@
 
 <div align="center">
 <a href="https://rafaymhddn.github.io/">Rafay Mohiuddin</a><sup>1*</sup>,
-<br />
-<a href="https://rafayamhddn.github.io/">Author1</a><sup>1</sup>,&nbsp;&nbsp;&nbsp;<a href="https://people.inf.ethz.ch/pomarc/">Author</a><sup>1</sup>,&nbsp;&nbsp;&nbsp;<a href="https://rafayamhddn.github.io/">Author 3</a><sup>1</sup>
+<span class="author-block">
+  Sai Manoj Prakhya</a><sup>2</sup>,
+  </span>
+  <br />
+<span class="author-block">
+  Fiona Collins</a><sup>1</sup>,
+</span>
+<span class="author-block">
+  Ziyuan Liu</a><sup>2</sup>,
+</span>
+<span class="author-block">
+  Andre Borrmann</a><sup>1</sup>,
+</span>
+
 
 
 <sup>1</sup>TU Munich&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>Huawei Munich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><!--sup>*</sup>correspounding author<sup>*</sup-->
@@ -21,11 +33,13 @@
 
 ```
 @article{rafay2024opensu3d
-  author    = {Mohiuddin, Rafay and - },
+  author    = {Mohiuddin, Rafay and Prakhya, Sai Manoj and Collins, Fiona and Liu, Ziyuan  and Borrmann,Andre},
   title     = {OpenSU3D: Open World 3D Scene Understanding using Foundation Models},
   journal   = {-},
   year      = {-},
 }
+This work has been submitted to the IEEE for possible publication.
+Copyright may be transferred without notice, after which this version may no longer be accessible
 ```
 
 # Website License
