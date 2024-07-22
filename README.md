@@ -32,11 +32,11 @@
 
 
 ```
-@article{rafay2024opensu3d
-  author    = {Mohiuddin, Rafay and Prakhya, Sai Manoj and Collins, Fiona and Liu, Ziyuan  and Borrmann,Andre},
-  title     = {OpenSU3D: Open World 3D Scene Understanding using Foundation Models},
-  journal   = {-},
-  year      = {-},
+@article{rafay2021opensu3d,
+  author    = {Rafay Mohiuddin and Sai Manoj Prakhya and Fiona Collins and Ziyuan Liu and André Borrmann},
+  title     = {OpenSU3D:Open Wold 3D Scene Understanding using Foundation Models},
+  journal   = {arXiv preprint 2407.14279},
+  year      = {2024},
 }
 This work has been submitted to the IEEE for possible publication.
 Copyright may be transferred without notice, after which this version may no longer be accessible
