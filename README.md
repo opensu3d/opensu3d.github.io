@@ -5,17 +5,17 @@
 <div align="center">
 <a href="https://rafaymhddn.github.io/">Rafay Mohiuddin</a><sup>1*</sup>,
 <span class="author-block">
-  Sai Manoj Prakhya</a><sup>2</sup>,
+  <a href="https://opensu3d.github.io/">Sai Manoj Prakhya</a><sup>2</sup>,
   </span>
   <br />
 <span class="author-block">
-  Fiona Collins</a><sup>1</sup>,
+  <a href="https://opensu3d.github.io/">Fiona Collins</a><sup>1</sup>,
 </span>
 <span class="author-block">
-  Ziyuan Liu</a><sup>2</sup>,
+  <a href="https://opensu3d.github.io/">Ziyuan Liu</a><sup>2</sup>,
 </span>
 <span class="author-block">
-  Andre Borrmann</a><sup>1</sup>,
+  <a href="https://opensu3d.github.io/">Andre Borrmann</a><sup>1</sup>,
 </span>
 
 
