@@ -22,8 +22,10 @@
 
 <sup>1</sup>TU Munich&nbsp;&nbsp;&nbsp;&nbsp;<sup>2</sup>Huawei Munich&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /><!--sup>*</sup>correspounding author<sup>*</sup-->
 
-<a href="https://rafayamhddn.github.io/"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-badge"></a>
-
+<a href="https://arxiv.org/abs/2407.14279"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-red"></a> 
+<a href="https://opensu3d.github.io/"><img alt="Project Page" src="https://img.shields.io/badge/Project-green"></a> 
+<a href="https://bob-workshop.github.io/"><img alt="IROSw" src="https://img.shields.io/badge/IROSw-red"></a> 
+<a href="https://ieeexplore.ieee.org/abstract/document/11127896"> <img alt="IEEE ICRA" src="https://img.shields.io/badge/IEEE ICRA-blue"></a> 
 
 
 ![teaser](static/images/approch/intro.png)
@@ -32,14 +34,13 @@
 
 
 ```
-@article{rafay2021opensu3d,
-  author    = {Rafay Mohiuddin and Sai Manoj Prakhya and Fiona Collins and Ziyuan Liu and André Borrmann},
-  title     = {OpenSU3D:Open Wold 3D Scene Understanding using Foundation Models},
-  journal   = {arXiv preprint 2407.14279},
-  year      = {2024},
-}
-This work has been submitted to the IEEE for possible publication.
-Copyright may be transferred without notice, after which this version may no longer be accessible
+@INPROCEEDINGS{11127896,
+  author={Mohiuddin, Rafay and Prakhya, Sai Manoj and Collins, Fiona and Liu, Ziyuan and Borrmann, André},
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={OpenSU3D: Open World 3D Scene Understanding Using Foundation Models}, 
+  year={2025},
+  pages={13560-13566},
+  doi={10.1109/ICRA55743.2025.11127896}}
 ```
 
 # Website License
